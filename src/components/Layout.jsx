@@ -1,0 +1,23 @@
+import React, { useContext } from "react";
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer/Footer";
+
+
+
+
+const Layout = () => {
+    
+
+  return (
+    <>
+      <Header />
+      <main className="">
+        <Outlet />
+      </main>
+      <Footer />
+    </>
+  );
+};
+
+export default Layout;
