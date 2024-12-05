@@ -46,13 +46,13 @@ const StatsSection = () => {
     return (
         <div
             ref={sectionRef}
-            className="sm:py-16 sm:px-16 bg-[url('/ourClients.jpg')] relative bg-cover bg-center bg-no-repeat text-center w-full h-full"
+            className="sm:py-16 py-6 sm:px-16 bg-[url('/ourClients.jpg')] relative bg-cover bg-center bg-no-repeat text-center w-full h-full"
         >
             <div className="absolute inset-0 bg-black bg-opacity-80 z-0"></div>
-            <h2 className="text-6xl font-bold my-10 text-white relative">
+            <h2 className="sm:text-6xl text-xl font-bold sm:my-10 text-white relative">
                 <span className="text-[#fff]">Our Achievements</span>
             </h2>
-            <div className="grid sm:grid-cols-4 gap-8 px-4 my-10">
+            <div className="grid sm:grid-cols-4 gap-8 px-4 sm:my-10">
                 {/* Happy Clients */}
                 <div className="flex flex-col items-center bg-[#010038] addShadow text-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
                     <span className="text-6xl font-extrabold text-[#fff]">
