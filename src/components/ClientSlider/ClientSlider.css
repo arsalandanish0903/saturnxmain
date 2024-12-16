@@ -27,3 +27,9 @@
     transform: translateX(-50%);
   }
 }
+@media(max-width: 576px){
+  .logo{
+    height: 3rem;
+    object-fit: cover;
+  }
+}

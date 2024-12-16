@@ -11,6 +11,13 @@ import AOS from "aos";
 import About from "./pages/About/About.jsx";
 import Service from "./pages/Services/Service.jsx";
 import Technology from "./pages/Technology/Technology.jsx";
+import Industries from "./pages/Industries/Industries.jsx";
+import Government from "./pages/Government/Government.jsx";
+import HealthCareWellBeing from "./pages/HealthCare/HealthCareWellBeing.jsx";
+import Construction from "./pages/Construction/Construction.jsx";
+import FinancialBanking from "./pages/FinancialBanking/FinancialBanking.jsx";
+import Automative from "./pages/Automative/Automative.jsx";
+import Ecommerce from "./pages/Ecommerce/Ecommerce.jsx";
 
 
 const App = () => {
@@ -24,6 +31,13 @@ const App = () => {
             <Route path="service" element={<Service />} />
             <Route path="technology" element={<Technology />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="industries-overview" element={<Industries />} />
+            <Route path="government-&-non-profit" element={<Government />}/>
+            <Route path="healthcare-&-well-being" element={<HealthCareWellBeing />}/>
+            <Route path="constructions-&-infrastructure" element={<Construction />}/>
+            <Route path="financial-&-banking-solutions" element={<FinancialBanking />}/>
+            <Route path="automotive-&-mobility-solutions" element={<Automative />}/>
+            <Route path="ecommerce" element={<Ecommerce />}/>
           </Route>
         </Routes>
       </Router>

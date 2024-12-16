@@ -21,8 +21,8 @@ function ClientSlider() {
   ];
 
   return (
-    <div className="logo-container sm:py-16">
-      <h1 className='sm:mb-24 text-white text-center text-6xl font-bold'>Our Clients</h1>
+    <div className="logo-container py-16">
+      <h1 className='sm:mb-24 mb-10 text-white text-center sm:text-6xl text-[2rem] font-bold'>Our Clients</h1>
       <div className="logo-scroller">
         {logos.map((logo, index) => (
           <img

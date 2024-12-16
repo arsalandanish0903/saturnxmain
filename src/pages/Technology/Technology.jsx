@@ -3,15 +3,15 @@ import TagCloudAnimation from '../../components/TagCloudAnimation/TagCloudAnimat
 import './Technology.css'
 function Technology() {
     return (
-        <div className="sm:py-16 py-6 sm:px-16 px-6 technologyBackgroundImg h-full w-full relative">
+        <div className="sm:py-16 py-16 sm:px-16 px-6 technologyBackgroundImg h-full w-full relative overflow-hidden">
             <div className='container mx-auto'>
                 <h1 className='text-white dark:text-black sm:text-6xl text-[2rem] font-bold text-center'>Our Technology</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
                     <div className="flex justify-center items-center">
                         <TagCloudAnimation />
                     </div>
-                    <div className="text-white space-y-6 relative  shadow-xl sm:p-8 overflow-hidden">
-                        <div className='bg-[#010038] text-white space-y-6 relative  addShadow sm:p-8'>
+                    <div className="text-white space-y-6 relative p-4  shadow-xl sm:p-8 overflow-hidden">
+                        <div className='bg-[#010038] text-white p-4 space-y-6 relative  addShadow sm:p-8'>
                             <h1 className="sm:text-3xl text-xl font-extrabold tracking-tight">The Most Trusted
                                 Web Service Provider
                                 in Nagpur</h1>

@@ -18,6 +18,8 @@ import ClientSlider from "../components/ClientSlider/ClientSlider";
 import StatsSection from "../components/StatsSection/StatsSection";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import BookSlider from "../components/BookSlider/BookSlider";
+import Industries from "./Industries/Industries";
+import Government from "./Government/Government";
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
@@ -183,7 +185,7 @@ const Home = () => {
       <StatsSection />
       <ClientSlider />
       <WhyChooseUs />
-      
+      {/* <Industries /> */}
     </>
   );
 };

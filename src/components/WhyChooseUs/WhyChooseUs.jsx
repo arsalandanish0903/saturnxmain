@@ -36,7 +36,7 @@ const WhyChooseUsSideLayout = () => {
   return (
     <div className="relative py-16 bg-[#010038]">
       <div className="w-full container mx-auto px-6 sm:px-12 lg:px-16">
-        <h2 className="text-6xl font-bold text-white text-left ml-8 mb-8" data-aos='fade-down'>
+        <h2 className="sm:text-6xl text-[2rem] font-bold text-white sm:text-left text-center sm:ml-8 sm:mb-8 mb-2" data-aos='fade-down'>
           Why Choose Us
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-6">
