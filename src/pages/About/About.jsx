@@ -12,11 +12,11 @@ function About() {
   }, []);
 
   return (
-    <div className="about-container dark:bg-white bg-[#010038] sm:p-16 px-6 sm:py-8 py-8">
+    <div className="about-container dark:bg-white bg-[#010038] sm:p-16 px-6  py-8">
       <div className='container mx-auto'>
       <div className="text-center">
         <h1
-          className="about-heading dark:text-black"
+          className="about-heading dark:text-black sm:mt-10 mt-16"
           data-aos="fade-up"
         >
           About
@@ -33,7 +33,7 @@ function About() {
         {/* Image Section */}
         <div className="about-image-container" data-aos="fade-left">
           <img
-            src="../../public/about.png"
+            src="/about.png"
             alt="About"
             className="about-image"
           />

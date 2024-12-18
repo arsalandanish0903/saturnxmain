@@ -5,7 +5,7 @@ function Technology() {
     return (
         <div className="sm:py-16 py-16 sm:px-16 px-6 technologyBackgroundImg h-full w-full relative overflow-hidden">
             <div className='container mx-auto'>
-                <h1 className='text-white dark:text-black sm:text-6xl text-[2rem] font-bold text-center'>Our Technology</h1>
+                <h1 className='text-white sm:text-6xl text-[2rem] font-bold text-center sm:mt-14 mt-16'>Our Technology</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
                     <div className="flex justify-center items-center">
                         <TagCloudAnimation />

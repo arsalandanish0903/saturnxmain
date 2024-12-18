@@ -43,7 +43,7 @@ function Industries() {
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-6 sm:px-16 z-20">
                 {/* Heading */}
                 <h1
-                    className="text-xl sm:text-2xl font-bold mb-4"
+                    className="text-xl sm:text-2xl font-bold mb-4 mt-48"
                     data-aos="fade-right"
                     data-aos-duration="2000"
                 >
@@ -52,7 +52,7 @@ function Industries() {
 
                 {/* Cards */}
                 <div
-                    className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-8"
+                    className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 pb-12"
                     data-aos="fade-up"
                     data-aos-duration="2000"
                 >

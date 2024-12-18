@@ -14,7 +14,7 @@ function Service() {
       <div className='bg-[#010038]  dark:bg-white sm:overflow-hidden w-full sm:px-16 px-6 sm:py-8 py-8'>
         <div className='container mx-auto'>
           <div className='text-center'>
-            <h1 className='text-white dark:text-black sm:text-6xl text-[2rem] font-bold'>Services</h1>
+            <h1 className='text-white dark:text-black sm:text-6xl text-[2rem] font-bold sm:mt-24 mt-20'>Services</h1>
             <p className='text-white dark:text-black text-lg my-4'>Experienced Range We Have</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 justify-items-center">

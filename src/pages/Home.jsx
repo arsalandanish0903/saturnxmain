@@ -91,7 +91,7 @@ const Home = () => {
   return (
     <>
       <div
-        className={`relative  w-full  ${theme === "dark" ? "bg-white" : "bg-black"}`}
+        className={`relative  w-full overflow-hidden  ${theme === "dark" ? "bg-white" : "bg-black"}`}
       >
         {/* Slider */}
         <Slider ref={sliderRef} {...settings}>

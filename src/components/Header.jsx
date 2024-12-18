@@ -242,7 +242,7 @@ const Header = () => {
         { name: "About", to: "/about" },
         { name: "Service", to: "/service" },
         { name: "Technology", to: "/technology" },
-        { name: "Contact", to: "/contact" },
+        { name: "Contact", to: "/contactus" },
     ];
 
     const industriesSubLinks = [
@@ -320,6 +320,7 @@ const Header = () => {
                                             to={`/${subLink
                                                 .toLowerCase()
                                                 .replace(/ /g, "-")}`}
+                                                onClick={() => setIsSubMenuOpen(false)}
                                             className="block py-2 px-4 text-sm font-medium text-white rounded-md dark:text-gray-300 hover:bg-[#F59E0D] hover:text-white transition-all duration-200"
                                         >
                                             {subLink}
